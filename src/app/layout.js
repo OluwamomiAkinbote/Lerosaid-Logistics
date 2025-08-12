@@ -1,6 +1,6 @@
 import './globals.css';
-import Header from '@/components/Header/Header';
-import Footer from '@/components/Footer';
+import Header from '../components/Header/Header';
+import Footer from '../components/Footer';
 
 
 
@@ -15,9 +15,7 @@ export const metadata = {
   keywords: ['logistics in Warri', 'Delta State delivery service', 'courier in Warri', 'package delivery', 'Lerosaid Logistics'],
   authors: [{ name: 'Lerosaid Logistics', url: 'https://www.lerosaid.com' }],
   metadataBase: new URL('https://www.lerosaid.com'),
-  alternates: {
-    canonical: '/',
-  },
+
   openGraph: {
     title: 'Lerosaid Logistics | Reliable Delivery in Warri, Delta State',
     description: 'Fast and reliable logistics services in Warri and Delta State. Your packages, our priority.',
